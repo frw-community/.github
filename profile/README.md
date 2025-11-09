@@ -1,378 +1,455 @@
-# FRW Community
-
-**We're reclaiming the web.**
-
----
-
-## The Web Was Born Free
-
-In 1989, Tim Berners-Lee created the World Wide Web and gave it to humanity.
-
-No patents. No ownership. No control.
-
-Open protocols. Open standards. Open access.
-
-**That act created trillions of dollars of value and changed human civilization.**
+# The Free Web Manifesto
+**A Declaration of Digital Independence**
 
 ---
 
-## Then We Lost It
+## Preamble
 
-Today, five companies control what 5 billion people can say.
+The Web was born free.
 
-Your content lives on their servers.  
-Your identity exists in their databases.  
-Your voice depends on their algorithms.
+Open protocols. Open standards. Open access.  
+No one owned it. No one controlled it. No one could shut it down.
 
-**One decision silences millions.**  
-**One ban erases your digital existence.**  
-**One policy change, you lose everything.**
+Everyone could publish. Everyone could read. Everyone could connect.
 
-This is not what we were promised.
+**That web is dying.**
 
----
+Today, the web is captured.  
+A handful of corporations decide who speaks, who listens, and who connects.  
+Your content lives at their mercy.  
+Your identity exists by their permission.  
+Your voice survives at their discretion.
 
-## We're Taking It Back
+One company bans you, your audience vanishes.  
+One server fails, your life's work disappears.  
+One terms of service changes, you lose everything.
 
-**FRW (Free Resilient Web) is the World Wide Web, restored.**
+**This is not the web we were promised.**
 
-Not a replacement. Not a darknet. Not an experiment.
+We declare independence from this captured web.  
+We reclaim the original vision.  
+We build a web that cannot be shut down, censored, or controlled.
 
-**The legitimate successor to what the web should have been.**
-
-### What We're Building
-
-**Infrastructure for freedom:**
-- Decentralized hosting on IPFS (no servers to shut down)
-- Cryptographic identity (your keys, not their accounts)
-- Content verification (math proves authenticity)
-- Peer-to-peer distribution (no middlemen)
-- Economic anti-spam (proof-of-work + bonds)
-
-**Same web. Same experience. But free.**
-
-### What Makes Us Different
-
-| Traditional Web | FRW |
-|----------------|-----|
-| Your content on their servers | Your content on 100,000+ IPFS nodes |
-| They own your identity | You own your cryptographic keys |
-| They decide what's acceptable | Mathematics decides what's authentic |
-| One company bans you, you're done | Network can't ban (mathematically impossible) |
-| Surveillance built-in | Privacy by design |
+**Welcome to the Free Web.**  
+**Welcome to FRW.**
 
 ---
 
-## Our Flagship Project
+## The Problem: Control
 
-### [FRW-Free-Web](https://github.com/frw-community/FRW-Free-Web)
+The web has been captured by centralization.
 
-**Production-ready. Working today. 397+ tests passing.**
+**Your Content is Not Yours**  
+It lives on their servers. They can delete it. They can modify it. They can hide it.  
+One company decides if your voice is heard.
 
-```bash
-# Install
-npm install -g @frw/cli
+**Your Identity is Not Yours**  
+Your account belongs to them. They grant access. They revoke access. They verify you.  
+Lose your account, lose your identity.
 
-# Create your identity (30 seconds)
-frw keygen
+**Your Privacy is Not Yours**  
+Every click is tracked. Every behavior profiled. Every connection logged.  
+Surveillance is the foundation, not a bug.
 
-# Register your name (2 minutes)
-frw register yourname
+**Your Freedom is Not Yours**  
+They write the terms. They change the rules. They decide what's acceptable.  
+Speak freely until they say you can't.
 
-# Publish your site (10 seconds)
-frw publish ./your-website
+### The Consequences
 
-# Live forever on frw://yourname/
-```
+When platforms control the infrastructure:
+- **Censorship becomes effortless** - One decision silences millions
+- **Deplatforming destroys lives** - One ban erases your digital existence
+- **Surveillance becomes normal** - Monitoring is the price of entry
+- **Monopolies become inevitable** - Network effects create empires
+- **Failure cascades globally** - One outage breaks the world
 
-**No blockchain. No tokens. No bullshit. Just freedom.**
-
-### Tech Stack
-
-- **TypeScript 5.3** - Production-grade codebase
-- **IPFS (Kubo)** - Distributed storage (battle-tested since 2015)
-- **Ed25519** - Military-grade signatures (used by Signal, SSH)
-- **Electron + React** - Modern browser application
-- **397+ Tests** - All passing, production-ready
-
-### Core Packages
-
-| Package | Purpose | Status |
-|---------|---------|--------|
-| `@frw/protocol` | URL parsing & resolution | ✓ 55 tests |
-| `@frw/crypto` | Ed25519 signatures | ✓ 11 tests |
-| `@frw/ipfs` | Content storage | ✓ 34 tests |
-| `@frw/name-registry` | Anti-squatting system | ✓ 142+ tests |
-| `@frw/sandbox` | Secure execution | ✓ 68 tests |
-| `@frw/storage` | LRU caching | ✓ 31 tests |
-| `@frw/common` | Shared utilities | ✓ 56 tests |
-
-**Total: 397+ production tests. This is not vaporware.**
+**The current web is not free.**  
+**It is rented, monitored, and controlled.**
 
 ---
 
-## The Stakes
+## The Solution: Decentralization
 
-### For Journalists
+FRW is not a product. It's a protocol.  
+Not a service. A standard.  
+Not a company. A commitment.
 
-**The Problem:** Governments pressure platforms. Servers get seized. Content disappears.
+### The Foundation
 
-**With FRW:** Publish once → replicated on 100,000+ nodes → mathematically impossible to delete.
+**Your Identity Belongs to You**  
+Generated by mathematics, not granted by authority.  
+No company can revoke it.  
+No government can confiscate it.  
+No platform can ban it.  
+**You are sovereign.**
 
-### For Creators
+**Your Content Belongs to You**  
+Distributed across the network, not locked on one server.  
+Signed by your identity, verifiable by anyone.  
+Permanent as long as anyone cares to host it.  
+**You are the publisher.**
 
-**The Problem:** Algorithms control reach. Demonetization without explanation. Arbitrary removals.
+**Your Privacy Belongs to You**  
+Data processed locally, not harvested remotely.  
+History stored on your device, not in their database.  
+Connections encrypted, not surveilled.  
+**You are protected.**
 
-**With FRW:** No algorithm. No platform cut. Direct audience access. Permanent content.
+**Your Freedom Belongs to You**  
+No terms of service to accept.  
+No authority to please.  
+No permission to seek.  
+**You are free.**
 
-### For Developers
+---
 
-**The Problem:** APIs change. Platforms kill apps. Terms of service restrict innovation.
+## The Principles
 
-**With FRW:** Open protocol. No API keys. Build once, works forever. No restrictions.
+We hold these truths to be fundamental:
 
-### For Activists
+### I. Freedom
 
-**The Problem:** Shadowbanning. Account suspension during critical moments. Political censorship.
+**Every human has the right to publish without permission.**  
+No authority decides what is acceptable.  
+No corporation grants the privilege of speech.  
+The protocol is neutral. The network is open. The voice is yours.
 
-**With FRW:** No shadowbanning possible. Cryptographic identity can't be suspended. Mathematics, not policy.
+**Every human has the right to access information freely.**  
+No paywall at the protocol level.  
+No registration required to read.  
+Knowledge belongs to humanity, not to platforms.
+
+**Every human has the right to connect and collaborate.**  
+Link to anyone. Reference anyone. Build with anyone.  
+Association is a right, not a feature.
+
+### II. Ownership
+
+**You own your identity.**  
+Generated by you, controlled by you, revocable by no one.  
+Your digital self is yours alone.
+
+**You own your content.**  
+What you create, you sign. What you sign, you control.  
+No platform can claim ownership of your words.
+
+**You own your data.**  
+Your history stays local. Your bookmarks belong to you.  
+No cloud required. No consent, no collection.
+
+### III. Integrity
+
+**Trust through verification, not authority.**  
+Content is signed. Tampering is detected. Authenticity is proven.  
+Mathematics replaces faith.
+
+**Transparency over secrecy.**  
+The protocol is open. The implementation is auditable.  
+No backdoors. No hidden agendas.
+
+**Immutability as foundation.**  
+Published content cannot be altered.  
+History cannot be rewritten.  
+Truth persists.
+
+### IV. Resilience
+
+**No single point of failure.**  
+Content is distributed. Networks are peer-to-peer.  
+Kill one node, a thousand remain.
+
+**Censorship cannot win.**  
+No central authority to pressure.  
+No servers to seize.  
+No infrastructure to control.
+
+**Content persists as long as someone cares.**  
+Popular content replicates naturally.  
+Important content survives indefinitely.  
+The network remembers.
+
+### V. Privacy
+
+**Privacy by design, not by policy.**  
+Processing happens locally, not remotely.  
+History stored on your device, not in their database.  
+Surveillance is not the foundation.
+
+**Minimal metadata. Maximum autonomy.**  
+No cookies. No analytics. No fingerprinting. No tracking.  
+Your browsing is your business.
+
+---
+
+## What FRW Is Not
+
+**Not an Underground Network**  
+FRW is not Tor. It's not I2P. It's not a darknet.  
+This is not about hiding or going underground.  
+This is about fixing the web, not abandoning it.  
+**We are building the web it should have always been.**
+
+**Not a Platform**  
+There is no FRW.com.  
+There is no FRW company.  
+There is no FRW server.  
+**FRW is a protocol, like HTTP. Anyone can implement it.**
+
+**Not a Cryptocurrency**  
+No tokens. No ICO. No blockchain.  
+No financial speculation required.  
+**Freedom is not for sale.**
+
+**Not Perfect Anonymity**  
+Identity is pseudonymous, not anonymous.  
+Signatures reveal authorship. Networks reveal participation.  
+**For anonymity, combine FRW with Tor or VPN.**
+
+**Not a Panacea**  
+FRW cannot prevent harmful content from being published.  
+FRW cannot force nodes to host content.  
+FRW cannot solve human problems with code.  
+**FRW is infrastructure for freedom, not a solution to everything.**
+
+---
+
+## The Philosophy: A Step Back to Move Forward
+
+**FRW is not a revolution. It's a course correction.**
+
+The WWW got it right in the beginning:
+- Open protocols anyone could implement
+- No permission needed to publish
+- URLs that worked everywhere
+- HTML anyone could write
+
+Then we made mistakes:
+- Centralized everything on corporate servers
+- Gave platforms control over identity
+- Accepted surveillance as the price of convenience
+- Let a few companies own the infrastructure
+
+**FRW doesn't throw away the web. It fixes it.**
+
+### What We Keep
+
+[DONE] **Familiar URLs** - Navigation works as you know it  
+[DONE] **Web technologies** - HTML, CSS, JavaScript - the same skills  
+[DONE] **Browser experience** - Address bar, links, navigation - unchanged  
+[DONE] **Open standards** - Anyone can implement, anyone can use  
+[DONE] **Human names** - Real names, not cryptographic hashes
+
+### What We Fix
+
+[TOOL] **Decentralized hosting** - No single server to shut down  
+[TOOL] **Cryptographic identity** - Keys you control, not accounts they grant  
+[TOOL] **Content verification** - Math proves authenticity, not corporations  
+[TOOL] **Resilient distribution** - Peer-to-peer, not client-server  
+[TOOL] **Privacy by design** - No surveillance in the foundation
+
+### The Goal
+
+**Not to replace the WWW. To become what it should have been.**
+
+- Accessible to everyone (not just tech experts)
+- Compatible with existing knowledge (HTML, CSS, JS)
+- Immune to corporate takeover (protocol, not platform)
+- Resistant to censorship (distributed by design)
+- Respectful of privacy (no surveillance foundation)
+
+**This is the web from 1995, rebuilt with 2025 technology.**  
+**The openness of the past, the resilience of the future.**
+
+We're not asking people to abandon the internet.  
+We're giving them a better version of what they already know.
+
+---
+
+## The Commitment
+
+We, the builders and users of the Free Web, commit to:
+
+**Build tools that empower, never exploit.**  
+Software that serves users, not shareholders.  
+Freedom over profit. Always.
+
+**Protect privacy as a right, not a feature.**  
+Privacy by design, not by policy.  
+Your data is yours. Period.
+
+**Resist censorship wherever it emerges.**  
+Build systems that route around control.  
+Distribute content beyond any single authority's reach.  
+The network interprets censorship as damage and routes around it.
+
+**Maintain integrity through transparency.**  
+Open code. Open audits. Open discourse.  
+No backdoors. No hidden agendas. No compromises.
+
+**Educate and empower everyone.**  
+Freedom requires knowledge.  
+We teach, we document, we spread digital literacy.  
+No gatekeeping. No elitism.
+
+**Remain independent, always.**  
+No corporate masters. No investors to please. No strings attached.  
+We answer to users. We serve freedom. Nothing else.
+
+---
+
+## The Call to Action
+
+**If you believe in freedom...**
 
 ### For Everyone
 
-**The Problem:** Your digital life rented from corporations who can evict you anytime.
+**Use it.**  
+Generate your identity. Create your content. Publish freely.  
+Every page published is an act of independence.
 
-**With FRW:** You own your identity. You own your content. You own your voice.
+**Share it.**  
+Tell creators under threat. Tell communities silenced. Tell everyone tired of corporate control.  
+The network grows with every voice that joins.
 
----
+**Defend it.**  
+Host a node. Archive important content. Support the infrastructure.  
+Resilience requires participation.
 
-## Network Effects Are Starting
+**Teach it.**  
+Spread digital literacy. Explain sovereignty. Demonstrate alternatives.  
+Freedom requires understanding.
 
-**This only works if people join.**
+### For Builders
 
-Current status:
-- **15,847** active IPFS nodes hosting FRW content
-- **127,000** registered names
-- **3.2M** pieces of content published
-- **45%** month-over-month growth
+**Build it.**  
+Implement the protocol. Create tools. Design interfaces. Write code.  
+The ecosystem thrives through creation.
 
-**The hockey stick is starting. Get in early.**
+**Improve it.**  
+Audit security. Optimize performance. Fix bugs. Document everything.  
+Excellence protects freedom.
 
-### First Movers Win
+**Extend it.**  
+Add features. Create integrations. Build bridges. Imagine possibilities.  
+Innovation expands horizons.
 
-Right now:
-- Short names still available (`frw://john`, `frw://crypto`, `frw://news`)
-- Your contribution matters (small team, big impact)
-- Early adopters become influencers
-- Your name in the commit history
+### For Communities
 
-**In 12 months? Too late to be early.**
+**Adopt it.**  
+Move your content. Host your identity. Control your platform.  
+Independence is collective.
 
----
+**Organize around it.**  
+Create spaces. Build networks. Foster collaboration.  
+Community makes the web worth having.
 
-## How You Can Help
-
-### As a User
-1. Generate your identity: `frw keygen`
-2. Register your name: `frw register yourname`
-3. Publish something: `frw publish ./content`
-4. Tell someone about it
-
-**Every person who joins makes the network stronger.**
-
-### As a Developer
-- **Fix bugs** - Browse [issues](https://github.com/frw-community/FRW-Free-Web/issues)
-- **Add features** - Check the [roadmap](https://github.com/frw-community/FRW-Free-Web/blob/main/docs/ROADMAP.md)
-- **Write tests** - Increase coverage
-- **Build tools** - Browser extensions, mobile apps, integrations
-- **Review code** - Security audits welcome
-
-**Your code. Your freedom. Your legacy.**
-
-### As a Creator
-- **Move your content** - Publish on FRW
-- **Build your audience** - Prove it works
-- **Document your journey** - Blog, video, tutorial
-- **Inspire others** - Lead by example
-
-**Be the change. Be the proof.**
-
-### As a Believer
-- **Star the repo** - [FRW-Free-Web](https://github.com/frw-community/FRW-Free-Web)
-- **Share this page** - Twitter, Reddit, HackerNews
-- **Write about it** - Blog post, Medium article
-- **Make a video** - YouTube, TikTok, Instagram
-
-**Viral growth starts with you.**
+**Protect it.**  
+Stand against centralization. Resist surveillance. Reject control.  
+Eternal vigilance preserves liberty.
 
 ---
 
-## The Three Choices
+## The Vision
 
-**Choice 1: Do Nothing**
+Imagine a web where:
 
-The web gets worse. More censorship. More control. More surveillance.
+**No one can silence you.**  
+Your words live on thousands of nodes.  
+Kill one, a thousand remain.
 
-Your kids grow up in a digital prison.
+**No one can impersonate you.**  
+Cryptographic signatures prove authenticity.  
+Mathematics replaces trust.
 
-**Choice 2: Complain**
+**No one can track you.**  
+Privacy by design, not by policy.  
+Your browsing is your business.
 
-Post on Twitter about censorship. Get banned for posting about censorship.
+**No one can censor you.**  
+Distributed storage defeats control.  
+The network routes around damage.
 
-Nothing changes.
+**No one owns your identity.**  
+Your keys, your self.  
+Sovereign and free.
 
-**Choice 3: Build The Alternative**
+This is not utopian fantasy.  
+This is FRW.  
+This is possible.  
+This is necessary.
 
-Clone the repo. Run the tests. Publish something. Tell someone.
-
-Be part of the solution.
-
-**Which choice are you making?**
-
----
-
-## The Timer Is Running
-
-**Network effects are exponential.**
-
-The platform with the most users wins. Always.
-
-Facebook won because everyone joined.  
-Email won because everyone adopted it.  
-FRW wins when you join.
-
-Right now, FRW is small enough that you matter.
-
-**In 12 months, it might be too late to matter.**
+**The web we build today determines the freedom we have tomorrow.**
 
 ---
 
-## Our Repositories
+## Join the Movement
 
-### Production
-- **[FRW-Free-Web](https://github.com/frw-community/FRW-Free-Web)** - Main implementation (TypeScript, 397+ tests)
+If you believe that:
 
-### Coming Soon
-- **frw-browser-extension** - Chrome/Firefox extensions
-- **frw-mobile** - iOS/Android apps
-- **frw-gateway** - HTTP gateway servers
-- **frw-docs** - Documentation site
+**Freedom of expression is a right, not a privilege.**  
+**Privacy is fundamental, not optional.**  
+**Ownership means control, not permission.**  
+**Resilience comes from distribution, not concentration.**
 
----
+**Then join us.**
 
-## Get Started Now
+The Free Web needs you.  
+Your voice. Your skills. Your participation.
 
-```bash
-# Clone
-git clone https://github.com/frw-community/FRW-Free-Web.git
-cd FRW-Free-Web
+Whether you build code or build communities,  
+Whether you write content or write documentation,  
+Whether you host nodes or host conversations,  
+**You matter.**
 
-# Install & Build
-npm install
-npm run build
-
-# Test (watch 397 tests pass)
-npm test
-
-# Install CLI globally
-cd apps/cli
-npm link
-
-# Create your identity
-frw keygen
-
-# You're in. Welcome to the free web.
-```
+**The revolution will not be centralized.**
 
 ---
 
-## The Manifesto
+### Learn More
 
-Read our full manifesto: **[MANIFESTO.md](https://github.com/frw-community/FRW-Free-Web/blob/main/MANIFESTO.md)**
-
-This is not just software. This is a commitment to freedom.
-
----
-
-## Join The War
-
-We're not fighting a metaphorical war. We're fighting a real one.
-
-**The war for control of human communication.**
-
-On one side: Five companies with unlimited resources, armies of lawyers, and governments in their pocket.
-
-On our side: Mathematics. Open source. And people who refuse to be controlled.
-
-**Mathematics doesn't care about their lawyers.**  
-**Open source doesn't care about their patents.**  
-**And we don't care about their terms of service.**
-
-### We Will Win Because
-
-**We have better technology:**
-- IPFS vs. their servers (100,000+ nodes vs. their data centers)
-- Ed25519 vs. their passwords (cryptography vs. "forgot password?")
-- Open protocols vs. their APIs (free vs. rate-limited)
-
-**We have better incentives:**
-- We build for freedom (they build for profit)
-- We win when users win (they win when users are trapped)
-- We have no investors to please (they have quarterly earnings)
-
-**We have history on our side:**
-- Email beat proprietary messaging (open protocol won)
-- Linux beat proprietary Unix (open source won)
-- BitTorrent beat legal threats (math won)
-
-**FRW will beat Big Tech. It's only a question of when.**
+- **Documentation:** [docs/](docs/)
+- **Source Code:** [GitHub](https://github.com/frw-community/frw-free-web-modern)
+- **Contributing:** [CONTRIBUTING.md](CONTRIBUTING.md)
+- **Quick Start:** [QUICK_START.md](QUICK_START.md)
 
 ---
 
-## The Revolution Will Not Be Centralized
+## Closing
 
-**Stars:** ⭐ Star [FRW-Free-Web](https://github.com/frw-community/FRW-Free-Web) if you believe in freedom
+This manifesto is not a promise.  
+It's a commitment.
 
-**Follow:** 👀 Watch this organization for updates
+This is not a product roadmap.  
+It's a declaration of principles.
 
-**Contribute:** 🔨 Check [issues](https://github.com/frw-community/FRW-Free-Web/issues) and [contribute](https://github.com/frw-community/FRW-Free-Web/blob/main/CONTRIBUTING.md)
+This is not marketing.  
+It's a call to action.
 
-**Spread:** 📢 Share with everyone who cares about freedom
+**The question is not whether we can build a free web.**  
+**The question is whether we have the courage to live free.**
 
----
+The web we deserve will not be given to us.  
+It must be built.
 
-## Links
+The freedom we seek will not be granted.  
+It must be claimed.
 
-- **Main Repo:** https://github.com/frw-community/FRW-Free-Web
-- **Documentation:** [docs/](https://github.com/frw-community/FRW-Free-Web/tree/main/docs)
-- **Manifesto:** [MANIFESTO.md](https://github.com/frw-community/FRW-Free-Web/blob/main/MANIFESTO.md)
-- **Contributing:** [CONTRIBUTING.md](https://github.com/frw-community/FRW-Free-Web/blob/main/CONTRIBUTING.md)
-- **Security:** security@frw.dev
-
----
-
-## Topics
-
-`decentralized-web` • `ipfs` • `censorship-resistant` • `web3` • `decentralization` • `peer-to-peer` • `distributed-systems` • `freedom-of-speech` • `typescript` • `no-blockchain` • `privacy` • `anti-censorship` • `digital-rights` • `free-internet` • `open-web`
+**The time is now.**  
+**The tools exist.**  
+**The choice is yours.**
 
 ---
 
-<p align="center">
-  <strong>The web was born free.</strong><br>
-  <strong>We gave it away.</strong><br>
-  <strong>We're taking it back.</strong>
-</p>
-
-<p align="center">
-  <em>"The revolution will not be centralized."</em>
-</p>
-
-<p align="center">
-  <strong>Welcome to FRW.</strong><br>
-  <strong>Welcome to the free web.</strong>
-</p>
+**Welcome to the Free Web.**  
+**Welcome to FRW.**
 
 ---
 
-<p align="center">
-  <sub>MIT License | 397+ Tests Passing | No VC Funding | No Tokens | Built by humans who refuse to be controlled</sub>
-</p>
+*This manifesto is released under MIT License.*  
+*Free to use. Free to modify. Free to distribute.*  
+*Because freedom cannot be licensed, only protected.*
+
+*Published November 2025*  
+*Distributed on IPFS*  
+*Signed. Verifiable. Uncensorable.*

@@ -1,4 +1,4 @@
-# The Free Resilient Web  Manifesto  
+# Free Resilient Web  Manifesto  
 **A Declaration of Digital Independence**
 
 > **Manifesto for a Free & Resilient Internet**

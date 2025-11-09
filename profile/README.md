@@ -1,6 +1,10 @@
-# The Free Web Manifesto
+# The Free Web Resilient Manifesto  
 **A Declaration of Digital Independence**
 
+> **Manifesto for a Free & Resilient Internet**
+
+> *"They can shut down servers. They can silence voices.  
+> But they cannot kill a web that rebuilds itself."*
 ---
 
 ## Preamble

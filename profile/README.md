@@ -412,10 +412,10 @@ Whether you host nodes or host conversations,
 
 ### Learn More
 
-- **Documentation:** [docs/](https://github.com/frw-community/frw-free-web-modern/docs/)
+- **Documentation:** [docs/](https://github.com/frw-community/frw-free-web-modern/tree/main/docs/)
 - **Source Code:** [GitHub](https://github.com/frw-community/frw-free-web-modern)
-- **Contributing:** [CONTRIBUTING.md](https://github.com/frw-community/frw-free-web-modern/CONTRIBUTING.md)
-- **Quick Start:** [QUICK_START.md](https://github.com/frw-community/frw-free-web-modern/QUICK_START.md)
+- **Contributing:** [CONTRIBUTING.md](https://github.com/frw-community/frw-free-web-modern/blob/main/CONTRIBUTING.md)
+- **Quick Start:** [QUICK_START.md](https://github.com/frw-community/frw-free-web-modern/blob/main/QUICK_START.md)
 
 ---
 

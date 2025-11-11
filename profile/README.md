@@ -415,7 +415,7 @@ Whether you host nodes or host conversations,
 - **Documentation:** [docs/](https://github.com/frw-community/frw-free-web-modern/docs/)
 - **Source Code:** [GitHub](https://github.com/frw-community/frw-free-web-modern)
 - **Contributing:** [CONTRIBUTING.md](https://github.com/frw-community/frw-free-web-modern/CONTRIBUTING.md)
-- **Quick Start:** [https://github.com/frw-community/frw-free-web-modern/QUICK_START.md](QUICK_START.md)
+- **Quick Start:** [QUICK_START.md](https://github.com/frw-community/frw-free-web-modern/QUICK_START.md)
 
 ---
 

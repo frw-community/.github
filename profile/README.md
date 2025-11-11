@@ -238,19 +238,19 @@ Then we made mistakes:
 
 ### What We Keep
 
-[DONE] **Familiar URLs** - Navigation works as you know it  
-[DONE] **Web technologies** - HTML, CSS, JavaScript - the same skills  
-[DONE] **Browser experience** - Address bar, links, navigation - unchanged  
-[DONE] **Open standards** - Anyone can implement, anyone can use  
-[DONE] **Human names** - Real names, not cryptographic hashes
+- **Familiar URLs** - Navigation works as you know it  
+- **Web technologies** - HTML, CSS, JavaScript - the same skills  
+- **Browser experience** - Address bar, links, navigation - unchanged  
+- **Open standards** - Anyone can implement, anyone can use  
+- **Human names** - Real names, not cryptographic hashes
 
 ### What We Fix
 
-[TOOL] **Decentralized hosting** - No single server to shut down  
-[TOOL] **Cryptographic identity** - Keys you control, not accounts they grant  
-[TOOL] **Content verification** - Math proves authenticity, not corporations  
-[TOOL] **Resilient distribution** - Peer-to-peer, not client-server  
-[TOOL] **Privacy by design** - No surveillance in the foundation
+- **Decentralized hosting** - No single server to shut down
+- **Cryptographic identity** - Keys you control, not accounts they grant  
+- **Content verification** - Math proves authenticity, not corporations  
+- **Resilient distribution** - Peer-to-peer, not client-server  
+- **Privacy by design** - No surveillance in the foundation
 
 ### The Goal
 
